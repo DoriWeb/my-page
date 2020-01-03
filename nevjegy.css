@@ -8,7 +8,7 @@
 
 /* Pozicionálás */
 .profile-card {
-  width: 480px;
+  width: 600px;
   max-width: calc(100vw - 10px);
 }
 
@@ -26,6 +26,7 @@ body {
 .head, .links {
   text-align: center;
 }
+
 
 .head, .content {
   width: 90%;
@@ -52,7 +53,7 @@ li {
 }
 
 .head, .about {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .content {
@@ -65,9 +66,9 @@ body {
 }
 
 .profile-card {
-  background-color: hsla(0, 0%, 100%, .5);
+  background-color: hsla(0, 0%, 100%, .6);
   border-radius: 4px;
-  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 40px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 50px;
 }
 
 img {
@@ -86,6 +87,10 @@ img:hover {
   filter: grayscale(20%);
 }
 
-
-
-
+.name-headline {
+  margin-top: 10px;
+}
+.links:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
